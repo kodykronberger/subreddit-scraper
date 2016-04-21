@@ -28,9 +28,9 @@ pip install bs4
 ```
 
 ## Standalone Runtime
-Subreddit-scraper can be ran as a stand-alone program.
+Subreddit-scraper can be ran as a stand-alone program. It will serialize the data, and write it to a .json file.
 
-To run as a single program, specify the subreddit name as a parameter when running from the terminal:
+Run the program from the terminal, and pass in the subreddit name, and the .json file to write to.
 ```
-python subreddit_scraper.py [name-of-subreddit]
+python subreddit_scraper.py [name-of-subreddit] [name-of-file]
 ```
