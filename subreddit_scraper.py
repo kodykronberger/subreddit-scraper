@@ -33,8 +33,12 @@ def scrape_reddit(subreddit):
     return posts
 
 if __name__ == '__main__':
-    if len(sys.argv) == 2:
-        print scrape_reddit(sys.argv[1])
+    import json
+    if len(sys.argv) == 3:
+        data = scrape_reddit(sys.argv[1])
+        with open(sys.argv[2], 'w') as jsonfile:
+            json.dump(data, jsonfile)
+        print "** JSON data from /r/%s serialized to %s **" % (sys.argv[1],sys.argv[2])
 
 
 
