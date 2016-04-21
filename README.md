@@ -32,5 +32,5 @@ Subreddit-scraper can be ran as a stand-alone program. It will serialize the dat
 
 Run the program from the terminal, and pass in the subreddit name, and the .json file to write to.
 ```
-python subreddit_scraper.py [name-of-subreddit] [name-of-file]
+python subreddit_scraper.py <name-of-subreddit> <name-of-file>
 ```
