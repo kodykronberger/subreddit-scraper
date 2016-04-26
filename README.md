@@ -1,5 +1,5 @@
 # subreddit-scraper
-A simple bot for scraping the "hot" page from a subreddit.
+A simple bot for scraping the "hot" page from a specific subreddit.
 
 This is a short tool I have written in Python for practice. This is also the first web-scraping bot I have ever written.
 
